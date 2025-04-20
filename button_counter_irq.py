@@ -6,7 +6,7 @@ button_pin = 4
 button = Pin(button_pin, Pin.IN, Pin.PULL_UP)
 
 # Variables for debounce and press count
-debounce_time = 200  # 100ms debounce time
+debounce_time = 250  # 100ms debounce time
 last_press_time = 0
 press_count = 0
 

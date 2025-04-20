@@ -5,7 +5,7 @@ from time import sleep
 led = Pin(2, Pin.OUT)
 
 # Configure potentiometer on ADC pin (e.g., GPIO34)
-pot = ADC(Pin(34))
+pot = ADC(Pin(35))
 pot.atten(ADC.ATTN_11DB)  # Full range: 0-3.3V
 pot.width(ADC.WIDTH_10BIT)  # 10-bit resolution (0-1023)
 
