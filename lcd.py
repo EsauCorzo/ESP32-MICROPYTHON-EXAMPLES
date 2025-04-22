@@ -20,9 +20,5 @@ i2c = SoftI2C(scl=Pin(I2C_SCL), sda=Pin(I2C_SDA), freq=400000)
 lcd = I2cLcd(i2c, I2C_ADDR, LCD_ROWS, LCD_COLS)
 
 # Test the LCD
-lcd.putstr("  MicroPython on\n")
-lcd.putstr("  ESP32 with I2C\n")
-
-# Keep the message displayed
-while True:
-    sleep(1)
+lcd.putstr(" MicroPython on\n")
+lcd.putstr("     ESP32\n")
