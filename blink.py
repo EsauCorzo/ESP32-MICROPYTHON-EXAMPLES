@@ -1,7 +1,7 @@
 from machine import Pin
 from time import sleep
 
-led = Pin(2, Pin.OUT)  # Initialize GPIO pin 2 as output for the LED
+led = Pin(18, Pin.OUT)  # Initialize GPIO pin 2 as output for the LED
 
 while True:
     led.on()  # Turn the LED on

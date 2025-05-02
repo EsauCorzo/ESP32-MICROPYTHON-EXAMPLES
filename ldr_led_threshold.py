@@ -7,7 +7,7 @@ ldr.atten(ADC.ATTN_11DB)  # Full range: 0-3.3V
 ldr.width(ADC.WIDTH_10BIT)  # 10-bit resolution (0-1023)
 
 # Initialize LED on GPIO2
-led = Pin(2, Pin.OUT)
+led = Pin(18, Pin.OUT)
 
 # Function to read min and max LDR values
 def calibrate_ldr(duration=5):

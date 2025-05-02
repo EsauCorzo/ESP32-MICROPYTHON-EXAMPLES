@@ -2,8 +2,8 @@ from machine import Pin
 import time
 
 # Configure the LED pin and button pin
-led = Pin(2, Pin.OUT)  # Replace 2 with your LED pin number
-button = Pin(4, Pin.IN, Pin.PULL_UP)  # Replace 0 with your button pin number
+led = Pin(18, Pin.OUT)  # Replace 2 with your LED pin number
+button = Pin(26, Pin.IN, Pin.PULL_UP)  # Replace 0 with your button pin number
 
 # Variable to track the button state
 button_pressed = False

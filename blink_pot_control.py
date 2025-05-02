@@ -2,7 +2,7 @@ from machine import Pin, ADC
 from time import sleep
 
 # Configure LED on GPIO2
-led = Pin(2, Pin.OUT)
+led = Pin(23, Pin.OUT)
 
 # Configure potentiometer on ADC pin (e.g., GPIO34)
 pot = ADC(Pin(35))

@@ -2,7 +2,7 @@ from machine import Pin
 from time import ticks_ms, ticks_diff
 
 # Pin configuration
-button_pin = 4
+button_pin = 26
 button = Pin(button_pin, Pin.IN, Pin.PULL_UP)
 
 # Variables for debounce and press count
