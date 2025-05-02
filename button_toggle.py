@@ -2,10 +2,10 @@ from machine import Pin
 import time
 
 # Configure the LED pin (e.g., GPIO2)
-led = Pin(2, Pin.OUT)
+led = Pin(18, Pin.OUT)
 
 # Configure the pushbutton pin (e.g., GPIO0)
-button = Pin(4, Pin.IN, Pin.PULL_UP)
+button = Pin(26, Pin.IN, Pin.PULL_UP)
 
 # Initial LED state
 led_state = False

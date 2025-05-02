@@ -9,4 +9,4 @@ adc.width(ADC.WIDTH_12BIT)  # Set 12-bit resolution
 while True:
     analog_value = adc.read()  # Read the analog value
     print("Analog Value:", analog_value)
-    time.sleep(0.1)  # Delay for 500ms
+    time.sleep(0.01)  # Delay for 500ms

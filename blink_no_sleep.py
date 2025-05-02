@@ -2,7 +2,7 @@ from machine import Pin
 import time
 
 # Initialize the built-in LED (usually GPIO2 on ESP32)
-led = Pin(2, Pin.OUT)
+led = Pin(18, Pin.OUT)
 
 # Get the current time in milliseconds
 last_toggle_time = time.ticks_ms()
